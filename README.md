@@ -13,7 +13,8 @@ PARSERALI.PY
 ###
 
 Данный файл использует такие библиотеки, как [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/), а также библиотеку [Selenium](https://pypi.org/project/selenium/).
-<a>Определяется класс Ali_parser, в который ничего не передается.</a>
+<br>
+Определяется класс Ali_parser, в который ничего не передается.
 
 Внутренние функции:
 
