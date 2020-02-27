@@ -11,3 +11,5 @@
 
 PARSERALI.PY
 ###
+
+Данный файл использует такие библиотеки, как [BeautifulSoup4][https://pypi.org/project/beautifulsoup4/], а также библиотеку [selenium][https://pypi.org/project/selenium/]
