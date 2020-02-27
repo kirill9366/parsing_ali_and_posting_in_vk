@@ -55,7 +55,7 @@ class Ali_parser:
 		try:
 			quality = driver.find_element_by_class_name('overview-rating-average').text
 		except:
-			quality = 'нету'
+			quality = '0.0'
 		price = driver.find_element_by_class_name('product-price-value').text
 		data_product = {'url_img': self.img_url, 'url_product': url_product, 'title':title, 'quality':quality, 'price':price}
 		return data_product
