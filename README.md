@@ -40,7 +40,7 @@ PARSERALI.PY
 POSTING_IN_VK.PY
 ###
 
-Этот же файл использует библиотек: [vk_api](https://pypi.org/project/vk-api/), [requestsi](https://pypi.org/project/requests/).
+Этот же файл использует библиотек: [vk_api](https://pypi.org/project/vk-api/), [requests](https://pypi.org/project/requests/).
 <br>
 
 Определяется класс Make_post, в который первым аргументом передается номер телефона или же электронная почта от вашего аккаунта Ввконтаке, а вот второй пароль.
