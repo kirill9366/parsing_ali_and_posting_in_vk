@@ -12,4 +12,18 @@
 PARSERALI.PY
 ###
 
-Данный файл использует такие библиотеки, как [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/), а также библиотеку [selenium](https://pypi.org/project/selenium/)
+Данный файл использует такие библиотеки, как [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/), а также библиотеку [Selenium](https://pypi.org/project/selenium/).
+Определяется класс Ali_parser, в который ничего не передается.
+
+Внутренние функции:
+
+`get_url` - собирает ссылку на товар с главной страницы, а также ссылку на фото товара, которые дальше передаются
+функции `get_data_product`, как правило передавать в функцию ничего не надо.
+Возвращает ссылку на товар.
+
+`get_data_product` - собирает данные о товаре по средствам библиотеки [Selenium](https://pypi.org/project/selenium/), т.к. данные на страницу передаются через js, который подгружается позже и получить данные через тот же [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/) достаточно сложно. 
+Передавать ничего не нужно. 
+Возвращает словарь с данными о товаре. В определенности это:
+url_img - ссылка на картинку товара.
+url_product - ссылка на сам товар.
+title - название товара
