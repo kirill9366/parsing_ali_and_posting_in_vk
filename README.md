@@ -31,6 +31,7 @@ PARSERALI.PY
 <br>
 <li>
 url_img - ссылка на картинку товара.
+<br>
 url_product - ссылка на сам товар.
 title - название товара
 </li>
